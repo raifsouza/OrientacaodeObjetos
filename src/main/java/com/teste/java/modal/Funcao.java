@@ -23,8 +23,4 @@ public class Funcao {
         this.salario = salario;
     }
 
-    // public Double BeneficioSecretario(Double salario) {
-    //     Double total =
-    // }
-
 }

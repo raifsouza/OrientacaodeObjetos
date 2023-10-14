@@ -82,7 +82,7 @@ public class Main {
             }
         }
 
-        System.out.println("O funcionário que recebeu o valor mais alto no mês "+mesAno+ " foi: "+ nome);
+        System.out.println("O funcionário que recebeu o valor mais alto no mês "+ mesAno + " foi: "+ nome);
 
         System.out.println("---------------------------------------------------------------------------------------------------\n");
     }
@@ -119,7 +119,7 @@ public class Main {
             }
         }
 
-        System.out.println("O vendedor que mais vendeu no mês "+mesAno+ " foi: "+ vendedor);
+        System.out.println("O vendedor que mais vendeu no mês "+ mesAno + " foi: "+ vendedor);
 
         System.out.println("---------------------------------------------------------------------------------------------------\n");
 

@@ -25,10 +25,13 @@ public final class App {
         String mesAno = "04/2022";
 
         List<Funcionario> funcionarios = new ArrayList<Funcionario>();
-
-        funcionarios.add(new Funcionario("Ana Silva", new Funcao("Vendedor",  12000.00), "12/2021"));
         funcionarios.add(new Funcionario("Jorge Carvalho", new Funcao("Secretário",  7000.00), "01/2018"));
+        funcionarios.add(new Funcionario("Maria Souza", new Funcao("Secretário",7000.00), "12/2015"));
+        funcionarios.add(new Funcionario("Ana Silva", new Funcao("Vendedor",  12000.00), "12/2021"));
+        funcionarios.add(new Funcionario("João Mendes", new Funcao("Vendedor",  12000.00), "12/2021"));
+        funcionarios.add(new Funcionario("Juliana Alves", new Funcao("Gerente",  20000.00), "07/2017"));
         funcionarios.add(new Funcionario("Bento Albino", new Funcao("Gerente",  20000.00), "03/2014"));
+        
 
         main.valorTotalPagoSalarioBeneficio(funcionarios, mesAno);
         main.valorTotalPagoSalario(funcionarios, mesAno);
